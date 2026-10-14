@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Choose Your Surprise</title><link rel="stylesheet" href="style.css"><script src="config.js"></script><script defer src="script.js"></script></head><body class="scene">
+<div class="starfield"></div><div class="vignette"></div><header class="topbar"><a href="index.html" class="brand">♡ OpenWithLove</a><span>03 — THREE LITTLE WORLDS</span></header>
+<main class="scene-content boxes-content"><p class="eyebrow">EACH ONE HOLDS SOMETHING DIFFERENT</p><h1>Pick what your heart<br><em>wants to open first.</em></h1><p class="muted">A memory, a little adventure, or words from my heart. Choose one. ♡</p>
+<div class="mystery-row romantic-choices">
+<button class="mystery-box choice-memory" data-box="memory" aria-label="Open a memory capsule"><span class="box-aura"></span><span class="gift-lid"></span><span class="gift-body"></span><span class="gift-ribbon"></span><span class="gift-bow">♡</span><b class="choice-title">A Memory</b><small>THE MOMENT</small></button>
+<button class="mystery-box choice-date" data-box="date" aria-label="Reveal a date night invitation"><span class="box-aura"></span><span class="gift-lid"></span><span class="gift-body"></span><span class="gift-ribbon"></span><span class="gift-bow">✦</span><b class="choice-title">An Adventure</b><small>JUST US TWO</small></button>
+<button class="mystery-box choice-letter" data-box="letter" aria-label="Open a little love letter"><span class="box-aura"></span><span class="gift-lid"></span><span class="gift-body"></span><span class="gift-ribbon"></span><span class="gift-bow">💌</span><b class="choice-title">A Love Note</b><small>FROM MY HEART</small></button>
+</div>
+<section class="box-reveal hidden" id="boxReveal" aria-live="polite">
+<div class="reveal-spark" id="revealIcon">✧</div><p class="eyebrow" id="revealEyebrow">JUST FOR YOU</p><h2 id="boxTitle">A little surprise</h2><p id="boxText"></p>
+<div id="boxExtra" class="box-extra"></div>
+<button class="glow-button hidden" id="boxContinue">Keep our story going ↗</button>
+</section></main></div><div class="music-float" id="musicFloat">
+<button type="button" class="music-float-button" id="musicFloatButton" aria-label="Play music" title="Play or pause music">♫</button>
+<audio id="musicFloatAudio" loop preload="none"></audio>
+</div></body></html>

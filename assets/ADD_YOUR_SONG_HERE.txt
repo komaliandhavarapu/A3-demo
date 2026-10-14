@@ -1,0 +1,5 @@
+To add music to this anniversary experience:
+1. Add a song file you have permission to use into this folder.
+2. Name it our-song.mp3 (or edit musicFile in config.js to match your filename).
+3. The visitor can tap the music button to play/pause it. Browsers require a tap before sound can start.
+For a customer deployment, include the chosen audio file in the website folder before publishing.
